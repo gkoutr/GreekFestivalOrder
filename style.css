@@ -1,0 +1,35 @@
+html{
+
+}
+
+h2{
+    text-align:center;
+}
+#banner{
+    width:1000px;
+}
+
+#container{
+
+    border: #000000 dotted;
+    margin:0px auto;
+    padding:2px 5px;
+    width:1000px;
+}
+#form{
+    position:relative;
+    left: 100px;
+    width:275px;
+}
+
+#toppings{
+    display:none;
+
+}
+
+#login{
+    position: relative;
+    left: 550px;
+    width: 275px;
+    bottom: 290px;
+}

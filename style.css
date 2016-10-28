@@ -1,10 +1,12 @@
 html{
 
 }
-
-h2{
-    text-align:center;
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    color: #444;
 }
+
 #banner{
     width:1000px;
 }
@@ -12,25 +14,28 @@ h2{
 #container{
 
     border: #000000 dotted;
-    margin:0px auto;
-    padding:2px 5px;
+    background-color: #eeeeee;
+    overflow: hidden; /*hidden to clear the floats on #form and #login */
+    margin:50px auto;
+    padding:15px;
     width:1000px;
 }
 #form{
-    position:relative;
-    left: 100px;
-    width:275px;
+    width: 490px;
+    float:left;
 }
+
+
+#sidebar{
+    width:250px;
+    float:right;
+
+
+}
+
 
 #toppings{
     margin: 50px;
 
 }
 
-
-#login{
-    position: relative;
-    left: 550px;
-    width: 275px;
-    bottom: 290px;
-}

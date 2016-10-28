@@ -101,9 +101,9 @@
     </div>
 
 
-    <div id="login">
+    <div id="sidebar">
         <h2>Log In/Register</h2>
-        <form action = "login.php" method = "post">
+        <form action = "login.php" id="login" method = "post">
             <fieldset>
 
                 <p>
@@ -121,13 +121,15 @@
             </fieldset>
 
         </form>
+        <h2>Cart</h2>
+        <form action = "cart.php" id="cart" method = "post">
+            <p>Your cart is empty</p>
 
+        </form>
     </div>
 
 
-    <form action="ex.html">
-          <input type = "submit" value="testing"/>
-    </form>
+
 </div>
 </body>
 </html>

@@ -40,7 +40,7 @@
                     <p>
                         <label>Choose a sandwich: </label>
                         <br>
-                        <input type = "radio" onclick= "return addToppings()" name = "sandwich" id="gyro" value="yes">
+                        <input type = "radio" onclick= "" name = "sandwich" id="gyro" value="yes">
                         Gyro
                         <br>
                         <input type = "radio" name = "sandwich" id="souvlaki" value="yes">

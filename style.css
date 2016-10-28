@@ -23,9 +23,10 @@ h2{
 }
 
 #toppings{
-    display:none;
+    margin: 50px;
 
 }
+
 
 #login{
     position: relative;

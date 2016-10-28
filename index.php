@@ -17,9 +17,9 @@
             });
         });
     </script>-->
-    <script src="toppings.js">
-
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="toppings.js"></script>
 
 </head>
 <body>
@@ -30,7 +30,7 @@
     </a>
 
 
-    
+
 
     <div id ="form">
     <h2>Order Form</h2>

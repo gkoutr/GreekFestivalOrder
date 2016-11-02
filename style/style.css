@@ -5,12 +5,12 @@ body{
     font-family: Verdana;
     font-size: 12px;
     color: #444;
+
 }
 
-#banner{
-    width:1000px;
+#banner {
+    width: 1000px;
 }
-
 #container{
 
     border: #000000 dotted;
@@ -39,3 +39,16 @@ body{
 
 }
 
+
+/*Register.php*/
+
+
+#register h2{
+    text-decoration: underline;
+}
+/*
+#register{
+    margin: 0 auto;
+    width:80%
+}
+*/

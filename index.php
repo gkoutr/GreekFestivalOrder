@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Greek Festival Menu</title>
 
-    <link rel = "stylesheet" href = "style.css"/>
+    <link rel = "stylesheet" href = "style/style.css"/>
 <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -121,8 +121,8 @@
             </fieldset>
 
         </form>
-        <h2>Cart</h2>
-        <form action = "cart.php" id="cart" method = "post">
+        <h2>Checkout</h2>
+        <form action = "checkout.php" id="checkout" method = "post">
             <p>Your cart is empty</p>
 
         </form>

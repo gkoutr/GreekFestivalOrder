@@ -7,6 +7,11 @@ body{
     color: #444;
 }
 
+footer{
+    margin: 0em 4em 0.5em 4em;
+    padding: 5px 0 0 0;
+}
+
 /*Classes*/
 .navbar .navbar-nav {
     display: inline-block;
@@ -37,8 +42,8 @@ body{
     border: #000000;
     background-color: #eeeeee;
     overflow: hidden; /*hidden to clear the floats on #form and #login */
-    margin:50px auto;
-    padding:15px;
+    margin:10px auto 0 auto;
+    /*padding:15px;*/
     width:1000px;
 }
 #form{
@@ -69,5 +74,9 @@ body{
 #toppings{
     margin: 50px;
 
+}
+#footer{
+    clear:both;
+    color:black;
 }
 

@@ -11,7 +11,7 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel = "stylesheet" href = "style.css"/>
+    <link rel = "stylesheet" href = "style/style.css"/>
 <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -30,33 +30,27 @@
 
 </head>
 <body>
-<header>
-    <a href="/">
-        <img src = "img/header.jpg" alt="Greek Festival Banner" id="banner">
-    </a>
-    <nav class="navbar navbar-default">
-        <div class="collapse navbar-collapse">
-        <ul class = "nav navbar-nav">
-            <li>
-                <a href="index.php">Home</a>
-            </li>
-            <li>
-                <a href="order.php">Order</a>
-            </li>
-            <li>
-                <a href="about.php">About</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-</header>
-
-</section>
-
 <div id = "container">
-
-
-
+    <header>
+        <a href="/">
+            <img src = "img/header.jpg" alt="Greek Festival Banner" id="banner">
+        </a>
+        <nav class="navbar navbar-default">
+            <div class="collapse navbar-collapse">
+            <ul class = "nav navbar-nav">
+                <li>
+                    <a href="index.php">Home</a>
+                </li>
+                <li>
+                    <a href="order.php">Order</a>
+                </li>
+                <li>
+                    <a href="about.php">About</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
 
 
     <div id ="form">
@@ -127,9 +121,14 @@
         </form>
         
     </div>
-
-
+    
+<footer id = "footer">
+    <p>
+        <em>Created By George Koutroumpis</em>
+    </p>
+</footer>
 
 </div>
+
 </body>
 </html>

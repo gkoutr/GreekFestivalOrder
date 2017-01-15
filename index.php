@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Greek Festival Menu</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "style.css"/>
 <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
@@ -23,11 +30,31 @@
 
 </head>
 <body>
-
-<div id = "container">
+<header>
     <a href="/">
         <img src = "img/header.jpg" alt="Greek Festival Banner" id="banner">
     </a>
+    <nav class="navbar navbar-default">
+        <div class="collapse navbar-collapse">
+        <ul class = "nav navbar-nav">
+            <li>
+                <a href="index.php">Home</a>
+            </li>
+            <li>
+                <a href="order.php">Order</a>
+            </li>
+            <li>
+                <a href="about.php">About</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</header>
+
+</section>
+
+<div id = "container">
+
 
 
 
@@ -51,33 +78,6 @@
                         <br>
                         <input type = "radio" name = "sandwich" id="vegetarian" value="yes">
                         Vegetarian
-                        <br>
-                    </p>
-                </div>
-                <div id = "toppings">
-                    <p>
-                        <label>Choose Toppings:</label>
-                        <br>
-                        <input type = "checkbox" name = "lettuce" id="lettuce" >
-                        Lettuce
-                        <br>
-                        <input type = "checkbox" name = "tomato" id="tomato" >
-                        Tomato
-                        <br>
-                        <input type = "checkbox" name = "cucumber" id="cucumber" >
-                        Cucumber
-                        <br>
-                        <input type = "checkbox" name = "feta" id="feta" >
-                        Feta
-                        <br>
-                        <input type = "checkbox" name = "onion" id="onion" >
-                        Onions
-                        <br>
-                        <input type = "checkbox" name = "tzatziki" id="tzatziki" >
-                        Tzatziki Sauce
-                        <br>
-                        <input type = "checkbox" name = "nopita" id="nopita" >
-                        No Pita Bread
                         <br>
                     </p>
                 </div>
@@ -110,14 +110,13 @@
                     <label>Log in</label>
                     <br>
                     Username:
-                    <input type = "text" name = "username">
+                    <input type = "text" name = "username" id = "username">
                     <br>
                     Password:
-                    <input type = "text" name="password">
+                    <input type = "text" name="password" id="password">
                     <br>
-                    <a href="register.php">Click here to Register</a>
+                    <a href="register.php" id= "register">Click here to Register</a>
                 </p>
-
             </fieldset>
 
         </form>
@@ -126,6 +125,7 @@
             <p>Your cart is empty</p>
 
         </form>
+        
     </div>
 
 

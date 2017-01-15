@@ -5,13 +5,13 @@
 $(function(){
     $('#toppings').hide();
     $("input[name=sandwich]").click(function(){
-        console.log('yes');
-        if($("#gyro").attr('checked'))
-            console.log('gyro');
-            $("#toppings").show();
-        
+
+                $("#toppings").show()
     })
 });
 
 
-
+//if($('#gyro').attr('checked'))
+/*console.log('yes');
+ if($("input[id=gyro]").click(function() {
+ console.log('gyro');*/

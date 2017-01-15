@@ -7,13 +7,34 @@ body{
     color: #444;
 }
 
+/*Classes*/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-size: large;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+
+
+/*ID's*/
 #banner{
     width:1000px;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+    margin: auto;
+
 }
 
 #container{
 
-    border: #000000 dotted;
+    border: #000000;
     background-color: #eeeeee;
     overflow: hidden; /*hidden to clear the floats on #form and #login */
     margin:50px auto;
@@ -27,13 +48,24 @@ body{
 
 
 #sidebar{
-    width:250px;
+    width:300px;
     float:right;
 
 
 }
+#username{
+    margin: 0 0 0 5px;
+}
 
+#password{
+    margin: 5px 0 0 7px;
+}
 
+#register
+{
+    font-size: large;
+    margin-top: 10px;
+}
 #toppings{
     margin: 50px;
 

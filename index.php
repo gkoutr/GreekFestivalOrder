@@ -11,8 +11,9 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src ="JavaScript/PopUpModal.js"</script>
     <link rel = "stylesheet" href = "style/style.css"/>
+    <!--<script src ="JavaScript/PopUpModal.js"</script>
+
 <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -27,7 +28,7 @@
     </script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="toppings.js"></script>
+   
 
 </head>
 <body>
@@ -76,6 +77,9 @@
                         <br>
                     </p>
                 </div>
+                <div id="toppings">
+                    
+                </div> 
                 <div id = "sides">
                     <p>
                         <label>Sides:</label>

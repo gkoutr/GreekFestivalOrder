@@ -18,10 +18,12 @@ footer{
     float: none;
     vertical-align: top;
     font-size: large;
+
 }
 
 .navbar .navbar-collapse{
     text-align: center;
+
 }
 
 
@@ -40,7 +42,7 @@ footer{
 #container{
 
     border: #000000;
-    background-color: #eeeeee;
+    background-color: lightblue;
     overflow: hidden; /*hidden to clear the floats on #form and #login */
     margin: auto;
     /*padding:15px;*/

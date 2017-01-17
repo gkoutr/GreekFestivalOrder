@@ -42,20 +42,21 @@ footer{
     border: #000000;
     background-color: #eeeeee;
     overflow: hidden; /*hidden to clear the floats on #form and #login */
-    margin:10px auto 0 auto;
+    margin: auto;
     /*padding:15px;*/
     width:1000px;
 }
 #form{
     width: 490px;
     float:left;
+    margin: 20px;
 }
 
 
 #sidebar{
     width:300px;
     float:right;
-
+    margin: 20px;
 
 }
 #username{
@@ -63,7 +64,7 @@ footer{
 }
 
 #password{
-    margin: 5px 0 0 7px;
+    margin: 5px 0 0 1em;
 }
 
 #register

@@ -3,7 +3,7 @@
  */
 
 
-$(document).ready(function () {
+$(window).load(function () {
 
     $("#myBtn").click(function(){
         $('#myModal').modal('show');

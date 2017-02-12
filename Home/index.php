@@ -15,6 +15,15 @@
 
     <!--<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>-->
     <link rel="stylesheet" href="../style/style.css"/>
+   <!-- <script src = "../toppings.js"/>-->
+    <script type="javascript">
+        $(document).ready(function () {
+
+            $("#myBtn").click(function(){
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
     <!--<script src ="JavaScript/PopUpModal.js"</script>
 
 <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -65,7 +74,7 @@
                 <p>
                     <label>Choose a sandwich: </label>
                     <br>
-                    <button id="myBtn" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Gyro
+                    <button id="myBtn" class="btn btn-primary btn-lg" data-toggle="modal"  type = "button" data-target="#myModal">Gyro
                     </button>
                     <!-- <input type = "radio" onclick= "div_show()" name = "sandwich" id="gyro" value="yes">
                      Gyro-->
@@ -82,15 +91,17 @@
                 </p>
     </div>
     <!-- Modal -->
-    <div class="modal" id="myModal" tabindex="-5" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-
                 </div>
-                <div class="modal-body">...</div>
+                <div class="modal-body">
+                    ...
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>

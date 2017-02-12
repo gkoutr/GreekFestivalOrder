@@ -2,6 +2,14 @@
  * Created by George on 10/27/2016.
  */
 
+
+$(document).ready(function () {
+
+    $("#myBtn").click(function(){
+        $('#myModal').modal('show');
+    });
+});
+/*
 $(function(){
     $('#toppings').hide();
     $("input[name=sandwich]").click(function(){
@@ -9,6 +17,7 @@ $(function(){
                 $("#toppings").show()
     })
 });
+*/
 
 
 //if($('#gyro').attr('checked'))

@@ -15,9 +15,9 @@
 
     <!--<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>-->
     <link rel="stylesheet" href="../style/style.css"/>
-
+    <Script src="ChangeModaltext.js"/>
     <?php include 'ToppingsModal.php' ?>
-   <!-- <script src = "../toppings.js"/>-->
+    <!-- <script src = "../toppings.js"/>-->
 
     <!--<script src ="JavaScript/PopUpModal.js"</script>
 
@@ -47,7 +47,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="../index.php">Home</a>
                     </li>
                     <li>
                         <a href="order.php">Order</a>
@@ -80,16 +80,16 @@
                     <button id="myBtnV" class="btn btn-primary btn-lg" data-toggle="modal" onclick="changeText(this.id)" value = "vegetarian" type = "button" data-target="#myModal">Vegetarian
                     </button>
 
-<!--                    <br>-->
-<!--                    <input type="radio" name="sandwich" id="souvlaki" value="yes">-->
-<!--                    Souvlaki-->
-<!--                    <br>-->
-<!--                    <input type="radio" name="sandwich" id="athenian" value="yes">-->
-<!--                    Athenian-->
-<!--                    <br>-->
-<!--                    <input type="radio" name="sandwich" id="vegetarian" value="yes">-->
-<!--                    Vegetarian-->
-<!--                    <br>-->
+                    <!--                    <br>-->
+                    <!--                    <input type="radio" name="sandwich" id="souvlaki" value="yes">-->
+                    <!--                    Souvlaki-->
+                    <!--                    <br>-->
+                    <!--                    <input type="radio" name="sandwich" id="athenian" value="yes">-->
+                    <!--                    Athenian-->
+                    <!--                    <br>-->
+                    <!--                    <input type="radio" name="sandwich" id="vegetarian" value="yes">-->
+                    <!--                    Vegetarian-->
+                    <!--                    <br>-->
                 </p>
     </div>
 

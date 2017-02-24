@@ -11,7 +11,28 @@
                     <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                 </div>
                 <div class="modal-body">
-                    
+                    <div class="body_bread">
+                        <h3>Pita Bread</h3>
+                        <input type="radio" name="bread" value="pita">Pita Bread<p></p>
+                        <input type="radio" name="bread" value="nopita">No Pita<p></p>
+                        <input type="radio" name="bread" value="pitaside">Pita on the Side<p></p>
+                    </div>
+                    <div class="body_toppings">
+                        <h3>Toppings</h3>
+                        <input type="checkbox" name="lettuce" value="lettuce">Lettuce<p></p>
+                        <input type="checkbox" name="tomato" value="tomato">Tomato<p></p>
+                        <input type="checkbox" name="onion" value="onion">Onion<p></p>
+                        <input type="checkbox" name="feta" value="feta">Feta cheese<p></p>
+                        <input type="checkbox" name="cucumber" value="cucumber">Cucumber<p></p>
+                        <input type="checkbox" name="tzatziki" value="tzatziki">Tzatziki<p></p>
+                    </div>
+                    <div class="body_special">
+                        <p>Enter any special instructions here.</p>
+                        <input type="textbox" name="special">
+                        <p>Quantity:</p>
+                        <input type="textbox" name="qty">
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

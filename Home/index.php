@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>-->
-    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="../style/style.css"/>
 
 
 </head>
@@ -22,7 +22,7 @@
 <div id="container">
     <header>
         <a href="/">
-            <img src="img/header.jpg" alt="Greek Festival Banner" id="banner">
+            <img src="../img/header.jpg" alt="Greek Festival Banner" id="banner">
         </a>
         <nav class="navbar navbar-default">
             <div class="collapse navbar-collapse">
@@ -31,7 +31,7 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="Order/Order.php">Order</a>
+                        <a href="../Order/Order.php">Order</a>
                     </li>
                     <li>
                         <a href="about.php">About</a>
@@ -61,7 +61,7 @@
                     Password:
                     <input type="text" name="password" id="password">
                     <br>
-                    <a href="register.php" id="register">Click here to Register</a>
+                    <a href="../register.php" id="register">Click here to Register</a>
                 </p>
             </fieldset>
 

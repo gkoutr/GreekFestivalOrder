@@ -8,7 +8,7 @@ function changeText(value) {
 
 
     if (elem.value=="Gyro") {
-        document.getElementById('myModalLabel').innerHTML = "Gyro";
+        document.getElementById('myModalLabel').innerHTML = "<h2> " + "Gyro" + "</h2>";
     }
     else if (elem.value == "souvlaki"){
         document.getElementById('myModalLabel').innerHTML = "Souvlaki";

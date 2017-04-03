@@ -39,27 +39,7 @@
 </head>
 <body>
 <div id="container">
-    <header>
-        <a href="/">
-            <img src="../img/header.jpg" alt="Greek Festival Banner" id="banner">
-        </a>
-        <nav class="navbar navbar-default">
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="../Home/index.php">Home</a>
-                    </li>
-                    <li>
-                        <a href="order.php">Order</a>
-                    </li>
-                    <li>
-                        <a href="about.php">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
+    <?php include '../shared/header.php' ?>
 
     <div id="form">
         <h2>Order Form</h2>
@@ -98,10 +78,10 @@
         <p>
             <label>Sides:</label>
             <br>
-            <input type="checkbox" name="fries" id="fries">
+            <input type="text" style = "width: 24px" name="fries" id="fries">
             Fries
             <br>
-            <input type="checkbox" name="calimari" id="calimari">
+            <input type="text" style = "width: 24px" name="calimari" id="calimari">
             Calimari
             <br>
         </p>
@@ -114,32 +94,7 @@
 </div>
 
 
-<div id="sidebar">
-    <h2>Log In/Register</h2>
-    <form action="login.php" id="login" method="post">
-        <fieldset>
-
-            <p>
-                <label>Log in</label>
-                <br>
-                Username:
-                <input type="text" name="username" id="username">
-                <br>
-                Password:
-                <input type="text" name="password" id="password">
-                <br>
-                <a href="../register.php" id="register">Click here to Register</a>
-            </p>
-        </fieldset>
-
-    </form>
-    <h2>Cart</h2>
-    <form action="cart.php" id="cart" method="post">
-        <p>Your cart is empty</p>
-
-    </form>
-
-</div>
+<?php include '../shared/signin.php' ?>
 
 <footer id="footer">
     <p>

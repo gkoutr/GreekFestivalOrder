@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="516d9d71-a4da-44ff-8f92-f84e6999b6f5" name="My Web Host" url="https://pupillary-term.000webhostapp.com/">
+        <fileTransfer host="files.000webhost.com" port="21" username="pupillary-term">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="10d0016c-7605-4476-b215-8e8f05439997" name="XAMPP Apache" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Users\George\PhpstormProjects\GreekFestival" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
